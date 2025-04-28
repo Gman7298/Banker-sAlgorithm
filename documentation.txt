@@ -10,6 +10,6 @@
     -Mark the process as finished.
   4) Repeat until all processes are finished (safe state), or no process can be made (unsafe state).
 
-  ##Error Handling
+##Error Handling
   1) If 'input.txt' does not open, the program prints an error and exits.
   2) If no safe sequence is found, the system is declared unsafe.
