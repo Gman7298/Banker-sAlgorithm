@@ -1,15 +1,15 @@
-##Purpose
+## Purpose
   To check if the system is in a safe state
 
-##How it works
+## How it works
   1) Read available resources, allocation, and maximum demand matrices from 'input.txt'.
   2) Calculate the 'Need' matrix by subtracting allocation from maximum demand.
   3) Check if there is a safe sequence.
-    -Find an unfinished process whose needs can be satisfied by the available resources.
-    -Pretend to allocate needed resources to that process.
-    -Mark the process as finished.
+    - Find an unfinished process whose needs can be satisfied by the available resources.
+    - Pretend to allocate needed resources to that process.
+    - Mark the process as finished.
   4) Repeat until all processes are finished (safe state), or no process can be made (unsafe state).
 
-##Error Handling
+## Error Handling
   1) If 'input.txt' does not open, the program prints an error and exits.
   2) If no safe sequence is found, the system is declared unsafe.
