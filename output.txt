@@ -1,0 +1,2 @@
+The system is in a SAFE state.
+Safe sequence: P0 -> P1 -> P2 -> P3 -> P4
